@@ -216,7 +216,7 @@ body.noscroll {
     object-position: 50% 65%;
 }
 
-.logo-index {
+.logo-index.start {
     width: 40%;
     position: absolute;
     z-index: 2;
@@ -232,7 +232,7 @@ body.noscroll {
 }
 
 @media (max-width: 991px) {
-    .logo-index {
+    .logo-index.start {
         width: 60%;
     }
 
@@ -242,7 +242,7 @@ body.noscroll {
 }
 
 @media (max-width: 640px) {
-    .logo-index {
+    .logo-index.start {
         width: 70%;
     }
 
