@@ -204,10 +204,12 @@
 
     <script>
         var loaderWrapper = document.getElementById("loaderWrapper");
+        var logoIndex = document.querySelector('.logo-index');
 
         window.addEventListener("load", function () {
             loaderWrapper.classList.add("hidden");
             document.body.classList.remove("noscroll");
+            logoIndex.classList.add("start");
         });
 
         document.body.classList.add("noscroll");
